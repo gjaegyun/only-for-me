@@ -53,7 +53,6 @@ const GlobalStyle = () => (
       }
 
       body {
-        background: #f7f7f7;
         height: 100vh;
         height: 100dvh;
         overscroll-behavior-y: none;
