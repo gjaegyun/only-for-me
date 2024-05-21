@@ -13,8 +13,4 @@ export default meta;
 
 type Story = StoryObj<typeof Header>;
 
-export const Primary: Story = {
-  args: {
-    currentTheme: 1,
-  },
-};
+export const Primary: Story = {};
