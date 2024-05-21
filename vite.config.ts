@@ -9,4 +9,13 @@ export default defineConfig({
   resolve: {
     alias: [{ find: '@', replacement: resolve(__dirname, 'src') }],
   },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://api.gwangju.go.kr/xml/lineInfo',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
 });
