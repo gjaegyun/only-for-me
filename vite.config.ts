@@ -12,9 +12,14 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://api.gwangju.go.kr/xml/lineInfo',
+        target: 'http://api.gwangju.go.kr/json/lineInfo',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+      '/bus': {
+        target: 'http://api.gwangju.go.kr/json/stationInfo',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/bus/, ''),
       },
     },
   },
