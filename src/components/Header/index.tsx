@@ -1,6 +1,7 @@
-import { Alarm } from '@/assets';
 import * as S from './style';
+
 import { Flow } from '@/types';
+import { Alarm } from '@/assets';
 
 interface Props {
   setFlow: React.Dispatch<React.SetStateAction<Flow>>;

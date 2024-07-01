@@ -1,64 +1,73 @@
 {
-  "hash": "b09ce100",
+  "hash": "3a100322",
   "configHash": "780666e5",
-  "lockfileHash": "b1291f7a",
-  "browserHash": "83fdc3d6",
+  "lockfileHash": "5177e20b",
+  "browserHash": "288dfa5e",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "9b5f065b",
+      "fileHash": "30179066",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "b786ad58",
+      "fileHash": "05666e3e",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "c12ccdab",
+      "fileHash": "6aee6ac7",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "f7ffc93b",
+      "fileHash": "4bde814e",
       "needsInterop": true
     },
     "react-toastify": {
       "src": "../../node_modules/react-toastify/dist/react-toastify.esm.mjs",
       "file": "react-toastify.js",
-      "fileHash": "791e827c",
+      "fileHash": "414ab869",
       "needsInterop": false
     },
     "@emotion/react": {
       "src": "../../node_modules/@emotion/react/dist/emotion-react.browser.esm.js",
       "file": "@emotion_react.js",
-      "fileHash": "d3724439",
+      "fileHash": "4a73d1f3",
       "needsInterop": false
     },
     "emotion-reset": {
       "src": "../../node_modules/emotion-reset/dist/index.js",
       "file": "emotion-reset.js",
-      "fileHash": "257929a6",
+      "fileHash": "18ede5d7",
       "needsInterop": true
     },
     "@emotion/styled": {
       "src": "../../node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js",
       "file": "@emotion_styled.js",
-      "fileHash": "42442f5e",
+      "fileHash": "28f8a3a8",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "f197f015",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-K4M4HEW6": {
-      "file": "chunk-K4M4HEW6.js"
+    "chunk-HLO4U3HQ": {
+      "file": "chunk-HLO4U3HQ.js"
     },
-    "chunk-6EPYQA3G": {
-      "file": "chunk-6EPYQA3G.js"
+    "chunk-4JI2AD7N": {
+      "file": "chunk-4JI2AD7N.js"
+    },
+    "chunk-CEQRFMJQ": {
+      "file": "chunk-CEQRFMJQ.js"
     }
   }
 }

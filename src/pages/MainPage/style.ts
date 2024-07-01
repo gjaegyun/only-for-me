@@ -17,3 +17,11 @@ export const Text = styled.p`
   width: 35rem;
   color: #333;
 `;
+
+export const BusWrapper = styled.div`
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+`;
